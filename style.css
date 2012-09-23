@@ -1,0 +1,32 @@
+body{
+	font:100% Arial, Helvetica, sans-serif;
+}
+
+table{width:100%;border-collapse:collapse;margin:0 auto;}
+th, td{text-align:left;padding:.5em;border:1px solid #fff;}
+th{background:#328aa4 url(img/tr_back.gif) repeat-x;color:#fff;}
+td{background:#e5f1f4;}
+
+
+#accountAdd,#accountSearch,#accountDelete{
+	margin:10px auto;
+	width: 800px;
+	padding:10px 0 10px 0;
+	background:#e5f1f4;
+	text-align:center;
+}
+
+#accountList{
+	margin:10px auto;
+	width: 800px;
+}
+
+.message{
+	font-size:14px;
+	width:95%;
+	padding:3px;
+	color:#ff0000;
+	text-align:left;
+	background-color:#cecece;
+	border:1px solid #666666;
+}
